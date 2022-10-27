@@ -1,0 +1,57 @@
+#app {
+	height: 100%;
+}
+
+html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.swiper {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	min-width: 240px;
+	min-height: 320px;
+	background: #fff;
+	filter: blur(4px);
+	box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.swiper-slide-prev {
+	filter: blur(1px);
+}
+
+.swiper-slide-active {
+	filter: blur(0px);
+}
+
+.swiper-slide-next {
+	filter: blur(1px);
+}
+
+.swiper-slide img {
+	display: block;
+	/* width: 100%; */
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+	background-image: none;
+}
